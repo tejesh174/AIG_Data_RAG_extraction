@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aig-data-rag-extraction"
+version = "0.1.0"
+description = "RAG pipeline for extracting financial data from AIG 10-K filings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "langchain>=0.3",
+    "langchain-community>=0.3",
+    "langchain-text-splitters>=0.3",
+    "faiss-cpu>=1.9",
+    "pypdf>=5.0",
+    "tiktoken>=0.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=6.0",
+    "ruff>=0.9",
+    "mypy>=1.14",
+]
+
+[project.scripts]
+aig-rag = "aig_data_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
