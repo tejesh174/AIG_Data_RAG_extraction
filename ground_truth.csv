@@ -1,0 +1,16 @@
+company,obs_id,variable,segment,year,ground_truth,unit,source_section
+AIG,NPW_NAC_2025,net_premiums_written,North America Commercial,2025,8759,millions USD,MD&A - North America Commercial Segment Operations
+AIG,NPW_IC_2025,net_premiums_written,International Commercial,2025,8663,millions USD,MD&A - International Commercial Segment Operations
+AIG,NPW_GP_2025,net_premiums_written,Global Personal,2025,6253,millions USD,MD&A - Global Personal Segment Operations
+AIG,NPW_NAC_2024,net_premiums_written,North America Commercial,2024,8452,millions USD,MD&A - North America Commercial Segment Operations
+AIG,NPW_IC_2024,net_premiums_written,International Commercial,2024,8364,millions USD,MD&A - International Commercial Segment Operations
+AIG,UW_NAC_2025,underwriting_income,North America Commercial,2025,1144,millions USD,MD&A - North America Commercial Segment Operations
+AIG,UW_IC_2025,underwriting_income,International Commercial,2025,1118,millions USD,MD&A - International Commercial Segment Operations
+AIG,UW_GP_2025,underwriting_income,Global Personal,2025,70,millions USD,MD&A - Global Personal Segment Operations
+AIG,UW_NAC_2024,underwriting_income,North America Commercial,2024,548,millions USD,MD&A - North America Commercial Segment Operations
+AIG,UW_IC_2024,underwriting_income,International Commercial,2024,1227,millions USD,MD&A - International Commercial Segment Operations
+AIG,REG_US,regulatory_jurisdiction,United States,2025,NYDFS,,Item 1 Business - Regulation - United States - States
+AIG,REG_UK,regulatory_jurisdiction,United Kingdom,2025,PRA,,Item 1 Business - Regulation - International
+AIG,REG_EU,regulatory_jurisdiction,European Union (Luxembourg),2025,Commissariat aux Assurances,,Item 1 Business - Regulation - International
+AIG,REG_SINGAPORE,regulatory_jurisdiction,Singapore,2025,MAS,,Item 1 Business - Regulation - International
+AIG,REG_JAPAN,regulatory_jurisdiction,Japan,2025,JFSA,,Item 1 Business - Regulation - International

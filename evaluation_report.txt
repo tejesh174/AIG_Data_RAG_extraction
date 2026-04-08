@@ -1,0 +1,25 @@
+==============================================================
+  EVALUATION REPORT
+==============================================================
+
+  OVERALL METRICS
+  Accuracy:                 93.3%  (14/15 matches)
+  Precision:                93.3%  (14/15 correct of non-null)
+  Recall:                   100.0%  (15/15 non-null extractions)
+  F1 Score:                 96.6%
+  Null Rate:                0.0%  (0/15 returned null)
+
+  NUMERIC METRICS (on 10 valid extractions)
+  MAE:                      0.0 million USD
+  RMSE:                     0.0 million USD
+  Mean |% Error|:           0.00%
+
+  PER-VARIABLE BREAKDOWN
+    net_premiums_written           accuracy=100%  nulls=0/5  mean|%err|=0.00%
+    regulatory_jurisdiction        accuracy=80%  nulls=0/5
+    underwriting_income            accuracy=100%  nulls=0/5  mean|%err|=0.00%
+
+  RETRIEVAL STATS
+  Avg chunks used:          8.0
+  Numeric tolerance:        2%
+==============================================================
