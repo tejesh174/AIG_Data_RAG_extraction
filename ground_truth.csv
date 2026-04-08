@@ -1,0 +1,16 @@
+company,year,variable,ground_truth,unit,source_page_hint
+AIG,2021,total_revenues,52057,millions USD,Consolidated Statements of Income
+AIG,2020,total_revenues,43736,millions USD,Consolidated Statements of Income
+AIG,2019,total_revenues,49746,millions USD,Consolidated Statements of Income
+AIG,2018,total_revenues,47389,millions USD,Consolidated Statements of Income
+AIG,2017,total_revenues,49520,millions USD,Consolidated Statements of Income
+AIG,2021,net_income,9388,millions USD,Consolidated Statements of Comprehensive Income (Loss)
+AIG,2020,net_income,-5944,millions USD,Consolidated Statements of Comprehensive Income (Loss)
+AIG,2019,net_income,3348,millions USD,Consolidated Statements of Comprehensive Income (Loss)
+AIG,2018,net_income,-6,millions USD,Consolidated Statements of Comprehensive Income (Loss)
+AIG,2017,net_income,-6084,millions USD,Consolidated Statements of Comprehensive Income (Loss)
+AIG,2021,industry,General Insurance and Life and Retirement,,ITEM 1 | Business
+AIG,2020,industry,General Insurance and Life and Retirement,,ITEM 1 | Business
+AIG,2019,industry,General Insurance and Life and Retirement,,ITEM 1 | Business
+AIG,2018,industry,General Insurance and Life and Retirement,,ITEM 1 | Business
+AIG,2017,industry,General Insurance and Life and Retirement,,ITEM 1 | Business
