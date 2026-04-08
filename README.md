@@ -13,7 +13,7 @@ Each variable has 5 ground truth observations (15 total).
 ## Pipeline Steps
 
 **Step 1 - Data_Extraction**
-Downloads AIG 10-K from HuggingFace eloukas/edgar-corpus dataset and extracts plain text
+Downloads AIG 10-K from US SEC Filings and extracts plain text
 
 **Step 2 - Ground_Truth Dataset**
 Builds the ground truth dataset (15 observations manually verified from the filing)
