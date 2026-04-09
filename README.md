@@ -67,3 +67,17 @@ python 6_Evaluation.py
 - Python + PySpark
 - OpenAI text-embedding-3-small
 - GPT-4o OpenAI
+
+## AIG_PYSPARK — Full PySpark Implementation
+The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline that maximizes PySpark usage across all 6 steps, not just chunking. Both versions produce identical results (93.3% accuracy, 14/15 correct).
+
+| Feature | AIG-RAG-FINAL (main) | AIG_PYSPARK |
+|---------|---------------------|-------------|
+| Spark usage | Chunking only | All 6 steps |
+| Spark SQL queries | 2 | 31 |
+| Window functions | — | Chunk ranking, error analysis |
+| UDFs | — | Match evaluation, null detection |
+| Caching | — | Multi-pass DataFrame operations |
+| Best for | Single filing, fast iteration | Batch processing at scale |
+
+Built both to compare trade-offs — the main version prioritizes simplicity and speed for single filings, while the PySpark version demonstrates how the pipeline would scale for processing hundreds of filings in parallel.
