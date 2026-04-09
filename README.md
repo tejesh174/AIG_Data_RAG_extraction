@@ -74,7 +74,7 @@ The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline t
 | Feature | AIG-RAG-FINAL (main) | AIG_PYSPARK |
 |---------|---------------------|-------------|
 | Spark usage | Chunking only | All 6 steps |
-| Spark SQL queries | 2 | 31 |
+| Spark SQL | Minimal | Data validation, chunk distribution analysis, retrieval summaries |
 | Window functions | — | Chunk ranking, error analysis |
 | UDFs | — | Match evaluation, null detection |
 | Caching | — | Multi-pass DataFrame operations |
