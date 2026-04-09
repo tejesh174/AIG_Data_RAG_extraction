@@ -71,7 +71,7 @@ python 6_Evaluation.py
 ## AIG_PYSPARK — Full PySpark Implementation
 The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline that maximizes PySpark usage across all 6 steps, not just chunking. Both versions produce identical results.
 
-| Feature | AIG-PYTHON | AIG_PYSPARK |
+| Feature | AIG_PYTHON | AIG_PYSPARK |
 |---------|---------------------|-------------|
 | Spark usage | Chunking only | All 6 steps |
 | Spark SQL | Minimal | Data validation, chunk distribution analysis, retrieval summaries |
