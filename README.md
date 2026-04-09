@@ -80,4 +80,5 @@ The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline t
 | Caching | — | Multi-pass DataFrame operations |
 | Best for | Single filing, fast iteration | Batch processing at scale |
 
-Built both to compare trade-offs — the main version prioritizes simplicity and speed for single filings, while the PySpark version demonstrates how the pipeline would scale for processing hundreds of filings in parallel.
+Built both to compare trade-offs:
+The main version prioritizes simplicity and speed for single filings, while the PySpark version demonstrates how the pipeline would scale for processing hundreds of filings in parallel.
