@@ -4,9 +4,9 @@ A retrieval-augmented generation pipeline that extracts financial data from AIG'
 
 ## Variables Extracted
 
-1. **Net Premiums Written** (numeric) — by segment and year
-2. **Underwriting Income** (numeric) — by segment and year
-3. **Primary Regulatory Authority** (categorical) — by jurisdiction
+1. **Net Premiums Written** (numeric) by segment and year
+2. **Underwriting Income** (numeric) by segment and year
+3. **Primary Regulatory Authority** (categorical) by jurisdiction
 
 Each variable has 5 ground truth observations (15 total).
 
