@@ -69,7 +69,7 @@ python 6_Evaluation.py
 - GPT-4o OpenAI
 
 ## AIG_PYSPARK — Full PySpark Implementation
-The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline that maximizes PySpark usage across all 6 steps, not just chunking. Both versions produce identical results (93.3% accuracy, 14/15 correct).
+The `AIG_PYSPARK/` folder contains an alternative version of the same pipeline that maximizes PySpark usage across all 6 steps, not just chunking. Both versions produce identical results.
 
 | Feature | AIG-RAG-FINAL (main) | AIG_PYSPARK |
 |---------|---------------------|-------------|
